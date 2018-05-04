@@ -1,0 +1,35 @@
+﻿生成启动时间为 2018/5/4 13:48:28。
+     1>项目“C:\Users\Alber\Desktop\学习\大创项目\语音识别接口\语音识别\samples\iat_record_sample\iat_record_sample.vcxproj”在节点 2 上(Build 个目标)。
+     1>PreBuildEvent:
+         del C:\Users\Alber\Desktop\学习\大创项目\语音识别接口\语音识别\samples\iat_record_sample\..\..\bin\iat_record_sample.exe
+         del C:\Users\Alber\Desktop\学习\大创项目\语音识别接口\语音识别\samples\iat_record_sample\\temp\output\Win32\Debug\msc.dll
+         copy C:\Users\Alber\Desktop\学习\大创项目\语音识别接口\语音识别\samples\iat_record_sample\..\..\bin\msc.dll C:\Users\Alber\Desktop\学习\大创项目\语音识别接口\语音识别\samples\iat_record_sample\temp\output\Win32\Debug\
+         :VCEnd
+         已复制         1 个文件。
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I../../include/ /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"C:\Users\Alber\Desktop\学习\大创项目\语音识别接口\语音识别\samples\iat_record_sample\temp\intermediate\Win32\Debug\\" /Fd"C:\Users\Alber\Desktop\学习\大创项目\语音识别接口\语音识别\samples\iat_record_sample\temp\intermediate\Win32\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt iat_record_sample.cpp
+         iat_record_sample.cpp
+     1>c:\users\alber\desktop\学习\大创项目\语音识别接口\语音识别\samples\iat_record_sample\iat_record_sample.cpp(179): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(205): note: 参见“fopen”的声明
+     1>c:\users\alber\desktop\学习\大创项目\语音识别接口\语音识别\samples\iat_record_sample\iat_record_sample.cpp(288): warning C4996: 'strncat': This function or variable may be unsafe. Consider using strncat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\string.h(255): note: 参见“strncat”的声明
+     1>c:\users\alber\desktop\学习\大创项目\语音识别接口\语音识别\samples\iat_record_sample\iat_record_sample.cpp(342): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(205): note: 参见“fopen”的声明
+     1>c:\users\alber\desktop\学习\大创项目\语音识别接口\语音识别\samples\iat_record_sample\iat_record_sample.cpp(520): warning C4477: 'sprintf' : format string '%s' requires an argument of type 'char *', but variadic argument 2 has type 'LPVOID'
+     1>c:\users\alber\desktop\学习\大创项目\语音识别接口\语音识别\samples\iat_record_sample\iat_record_sample.cpp(520): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 3 has type 'const char *'
+     1>c:\users\alber\desktop\学习\大创项目\语音识别接口\语音识别\samples\iat_record_sample\iat_record_sample.cpp(520): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(1769): note: 参见“sprintf”的声明
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Alber\Desktop\学习\大创项目\语音识别接口\语音识别\samples\iat_record_sample\temp\output\Win32\Debug\iat_record_sample.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Users\Alber\Desktop\学习\大创项目\语音识别接口\语音识别\samples\iat_record_sample\temp\output\Win32\Debug\iat_record_sample.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Alber\Desktop\学习\大创项目\语音识别接口\语音识别\samples\iat_record_sample\temp\output\Win32\Debug\iat_record_sample.lib" /MACHINE:X86 "C:\Users\Alber\Desktop\学习\大创项目\语音识别接口\语音识别\samples\iat_record_sample\temp\intermediate\Win32\Debug\iat_record_sample.obj"
+         "C:\Users\Alber\Desktop\学习\大创项目\语音识别接口\语音识别\samples\iat_record_sample\temp\intermediate\Win32\Debug\speech_recognizer.obj"
+         "C:\Users\Alber\Desktop\学习\大创项目\语音识别接口\语音识别\samples\iat_record_sample\temp\intermediate\Win32\Debug\winrec.obj"
+         iat_record_sample.vcxproj -> C:\Users\Alber\Desktop\学习\大创项目\语音识别接口\语音识别\samples\iat_record_sample\temp\output\Win32\Debug\iat_record_sample.exe
+       PostBuildEvent:
+         copy C:\Users\Alber\Desktop\学习\大创项目\语音识别接口\语音识别\samples\iat_record_sample\temp\output\Win32\Debug\iat_record_sample.exe C:\Users\Alber\Desktop\学习\大创项目\语音识别接口\语音识别\samples\iat_record_sample\..\..\bin\iat_record_sample.exe
+         :VCEnd
+         已复制         1 个文件。
+     1>已完成生成项目“C:\Users\Alber\Desktop\学习\大创项目\语音识别接口\语音识别\samples\iat_record_sample\iat_record_sample.vcxproj”(Build 个目标)的操作。
+
+已成功生成。
+
+已用时间 00:00:01.87
